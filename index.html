@@ -1,97 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">   
-    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>SofiasLost</title>  
-  </head>
-  <body>
+    <title>SofiasLost</title>
+</head>
+<body>
     <div class="container">
-      <details class="window" open="">
-        <summary class="title-bar">
-          <div class="title-bar-text">SofiasLost's Website</div>
-          <div class="title-bar-controls">
-            <button aria-label="Minimize"></button>
-            <button aria-label="Maximize"></button>
-            <button aria-label="Close"></button>
-          </div>
-        </summary>
-        <div class="window-body" style="text-align: center;">
-          <a class="nav-window" href="index.html"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/SofiaPFP.png"> <span class="nav-text">Home</span></a>
-          <a class="nav-window" href="files/"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/files.png"> <span class="nav-text">Files</span></a>
-          <div class="dot"></div>
-          <a class="nav-window" href="credits.html"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/aboutme.png"> <span class="nav-text">Credits</span></a>
-        </div>
-      </details>
-  
-      <br>
-      <br>
-
-      <details class="window" open="">
-        <summary class="title-bar">
-          <div class="title-bar-text"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/SofiaPFP.png"> Sofia, welcomes you in!</div>
-          <div class="title-bar-controls">
-            <button aria-label="Minimize"></button>
-            <button aria-label="Maximize"></button>
-            <button aria-label="Close"></button>
-          </div>
-        </summary>
-        <div class="window-body" style="text-align: center;">
-          <img src="images/SofiaPFP.png" width="15%">
-          <p>Hey, I'm Sofia and welcome to my site! <br>I love technology, video games, cars and having a hobby on messing around with computers. <br>I also manage the services at <a href="AnyaHosting/index.html" target="_blank">AnyaHosting</a></p>
-        </div>
-      </details>
-      
-      <br>
-
-      <details class="window" open="">
-        <summary class="title-bar">
-          <div class="title-bar-text"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/contact.png"> Want to contact me?</div>
-          <div class="title-bar-controls">
-            <button aria-label="Minimize"></button>
-            <button aria-label="Maximize"></button>
-            <button aria-label="Close"></button>
-          </div>
-        </summary>
-        <div class="window-body" style="">
-          <h3 style="margin-bottom: -4px;">Places you can find me on!</h3>
-          <ul style="list-style-type: none; margin-left: -30px;">
-            <li>
-              <i class="fa-brands fa-discord"></i> Discord: <a href="https://discordapp.com/users/1257791775523868735">@sofiaslost</a>
-            </li>
-            <li>
-              <i class="fa-brands fa-github"></i> Github: <a href="https://github.com/sofiaslost">@sofiaslost</a>
-            </li>
-            <li>
-              <i class="fa-brands fa-steam"></i> Steam: <a href="https://steamcommunity.com/id/TotallyLostt">@TotallyLostt</a>
-            </li>
-          </ul>
-        </div>
-      </details>
-
-      <br>
-
-      <details class="window" open>
-        <summary class="title-bar">
-          <div class="title-bar-text"><img style="margin-bottom: -4px;" width="16px" height="16px" src="images/services.png"> Links and Services</div>
-          <div class="title-bar-controls">
-            <button aria-label="Minimize"></button>
-            <button aria-label="Maximize"></button>
-            <button aria-label="Close"></button>
-          </div>
-        </summary>
-        <div class="window-body">
-          <div class="service-grid">
-            <a class="service-link" style="background-image: url('images/UserVM.png'); color: white;" href="AnyaHosting/index.html" target="_blank">
-              <h1>AnyaHosting</h1>
-              <p>My hosting website</p>
-            </a>
-          </div>
-       </div>
-      </details>
+        <main>
+            <div class="welcome" style="text-align: center;">
+                <img class="imgShadow" src="./images/SofiaPFP.png" width="15%">
+                <p>
+                    Hey, I'm Sofia and welcome to my site!
+                    <br>
+                    I love technology, video games, cars and having a hobby on messing around with computers.
+                    <br>
+                    I manage the services at AnyaHosting
+                </p>
+            </div>
+            <hr>
+            <h3 style="margin-bottom: -3px;">Services</h3>
+            <div class="service-grid">
+                <a class="service" style="background-image: url('images/UserVM.png'); color: white;" href="AnyaHosting/index.html" target="_blank">
+                  <h1>AnyaHosting</h1>
+                  <p>My hosting website</p>
+                </a>
+            </div>
+            <br>
+            <div class="projects">
+                <fieldset id="projects">
+                    <legend>Projects</legend>
+                    <p>Currently have no projects i am working on at the moment</p>
+                </fieldset>
+            </div>
+            <div class="specs">
+                <fieldset id="specs">
+                    <legend>Specs</legend>
+                    <ul>
+                        <li>    
+                            <details>
+                                <summary>Main PC</summary>
+                                <p style="margin-top: 3px;">
+                                    MODEL - OMEN Laptop 15-en1xxx<br>
+                                    CPU - AMD Ryzen 7 5800H with Radeon Graphics [8c16t] 3.2GHz<br>
+                                    RAM - 32GB DDR4-3200<br>
+                                    GPU - NVIDIA GeForce RTX 3070 8GB<br>
+                                    DISK1 - 1x 1TB Samsung UNKNOWN NVME<br>
+                                    DISK2 - 1x 2TB Samsung SSD 990 PRO NVME<br>
+                                    OS - Windows 11 24H2
+                                </p>
+                            </details>
+                        </li>
+                        <li>    
+                            <details>
+                                <summary>Home Server</summary>
+                                <p style="margin-top: 3px;">
+                                    CPU - AMD Ryzen 7 5800 [8c16t] 3.8GHz<br>
+                                    RAM - 24GB DDR4<br>
+                                    GPU - NVIDIA GeForce RTX 2060 6GB<br>
+                                    DISK1 - 1x 1TB Samsung UNKNOWN NVME<br>
+                                    DISK2 - 1x 2TB Seagate UNKNOWN HDD<br>
+                                    OS - Proxmox VE 8.3<br>
+                                </p>
+                            </details>
+                        </li>
+                        <li>    
+                            <details>
+                                <summary>iMac</summary>
+                                <p style="margin-top: 3px;">
+                                    CPU - Intel Core i5 [2c] 1.6GHz<br>
+                                    RAM - 8GB LPDDR3<br>
+                                    GPU - Inten HD Graphics 6000<br>
+                                    DISK1 - 1x 1TB HDD<br>
+                                    OS - macOS Monterey 12.7.6<br>
+                                </p>
+                            </details>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="contact">
+                <fieldset id="contact">
+                    <legend>Want to contact me?</legend>
+                    <ul style="list-style-type: none; margin-left: -30px;">
+                        <li>
+                          <i class="fa-brands fa-discord"></i> Discord: <a href="https://discordapp.com/users/1257791775523868735">@sofiaslost</a>
+                        </li>
+                        <li>
+                          <i class="fa-brands fa-github"></i> Github: <a href="https://github.com/sofiaslost">@sofiaslost</a>
+                        </li>
+                        <li>
+                          <i class="fa-brands fa-steam"></i> Steam: <a href="https://steamcommunity.com/id/TotallyLostt">@TotallyLostt</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i> Email: <a href="mailto:sofiaslostt@gmail.com">sofiaslostt@gmail.com</a>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+        </main>
     </div>
- </body>
+</body>
 </html>
