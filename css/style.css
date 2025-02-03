@@ -9,8 +9,6 @@ body {
     color: white;
     font-family: "JetBrains Mono", monospace, serif;
 
-    font-size: 1vw;
-
     margin: 0;
     padding: 0;
 }
@@ -79,18 +77,16 @@ table {
       position: relative;
       z-index: 30;
       margin: 0;
+      font-size: 1rem;
       font-weight: 900;
       padding: 10px;
   }
   .service p {
       position: relative;
       margin: 0;
+      font-size: 0.9rem;
       padding-left: 10px;
       margin-top: -10px;
-  }
-
-  .service h1, .service p {
-    font-size: 1vw;
   }
   
   .service:hover {
@@ -116,25 +112,6 @@ table {
 
 .sofiafooter {
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 95%;
-        padding: 10px;
-    }
-
-    .service-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .service h1 {
-        font-size: 12px;
-    }
-
-    .service p {
-        font-size: 12px;
-    }
 }
 
 @keyframes textflicker {
