@@ -5,4 +5,4 @@ This branch is for version 2 of my website. If you want to see the original code
 -----------
 
 ### TO DO
-- [] Fix mobile scalling (ISSUE)
+- [ ] Fix mobile scalling (ISSUE)
