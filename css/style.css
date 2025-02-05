@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-html,body {
-    overflow-x: hidden;
+* {
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -40,7 +41,6 @@ hr {
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
-
 }
 
 fieldset {
@@ -112,6 +112,38 @@ table {
 
 .sofiafooter {
     text-align: center;
+}
+
+@media (max-width: 768px;) {
+  .container {
+    max-width: 95%;
+    padding: 8px;
+  }
+  
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service {
+    height: auto;
+    padding: 12px;
+  }
+  
+  .service h1 {
+    font-size: 1.2rem;
+  }
+  
+  .service p {
+    font-size: 1rem;
+  }
+  
+  main {
+    padding: 0.8em;
+  }
+  
+  table {
+    text-indent: 10px;
+  }
 }
 
 @keyframes textflicker {
