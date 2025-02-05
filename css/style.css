@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 body {
@@ -114,7 +114,7 @@ table {
     text-align: center;
 }
 
-@media (max-width: 768px;) {
+@media (max-width: 768px; max-width: 1200px;) {
   .container {
     max-width: 95%;
     padding: 8px;
